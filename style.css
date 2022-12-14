@@ -2,7 +2,7 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #47a547;
 }
 
 .navbar-collapse {
@@ -25,8 +25,8 @@ h1 {
 }
 
 .seccion-oscura {
-  color: white;
-  background-color: #1b1b32;
+  color: rgb(255, 255, 255);
+  background-color: #2a4425;
 }
 
 .seccion-clara {
@@ -65,7 +65,7 @@ h1 {
 /* Seccion Hero */
 
 .hero {
-  background-color: #f5f6f7;
+  background-color: #f2faec;
   min-height: 450px;
   text-align: center;
 }
@@ -75,9 +75,9 @@ h1 {
 }
 
 .hero-imagen-desarrollador {
-  width: 200px;
-  height: 200px;
-  margin: 20px;
+  width: 250px;
+  height: 250px;
+  margin: 25px;
 }
 
 .hero-principal h2 {
@@ -105,7 +105,7 @@ h1 {
 
 .experiencia .columna {
   padding: 20px;
-  border: 2px solid #8080804d;
+  border: 2px solid #2ae7114d;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,13 +115,13 @@ h1 {
 
 .experiencia .columna:hover {
   color: white;
-  background-color: #1b1b32;
+  background-color: #3c830d;
 }
 
 .experiencia i {
   font-size: 2.5rem;
   color: #7ade30;
-  background-color: #0a0a23;
+  background-color: #1515aa;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -149,10 +149,10 @@ h1 {
 }
 
 .proyectos-recientes img {
-  height: 100%;
+  height: 50%;
   width: 100%;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 20px;
   display: block;
   transition: all 0.2s ease;
 }
@@ -205,17 +205,20 @@ h1 {
 .articulos {
   min-height: 500px;
   padding: 30px;
+  background-color: #59c059;
 }
 
 .articulos .card {
   width: 80%;
   max-width: 600px;
   margin: 20px;
+  background-color: #07f01b;
 }
 
 .articulos .card-header {
   font-weight: bold;
 }
+
 
 /* Testimonios */
 
@@ -281,9 +284,9 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: rgb(33, 207, 48);
   border-radius: 10px;
-  box-shadow: 0px 1px 4px 1px white;
+  box-shadow: 0px 1px 4px 1px rgb(61, 55, 55);
 }
 
 .contacto .row {
@@ -293,7 +296,7 @@ h1 {
 }
 
 .contacto .descripcion {
-  color: white;
+  color: rgb(36, 27, 27);
   font-size: 1.2rem;
 }
 
@@ -309,8 +312,8 @@ h1 {
 }
 
 .contacto button:hover {
-  background-color: white;
-  color: black;
+  background-color: rgb(11, 71, 4);
+  color: rgb(255, 249, 249);
 }
 
 .contacto button i {
@@ -363,7 +366,7 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  border: 2px solid rgb(13, 253, 13);
 }
 
 .iconos-redes-sociales a:hover i {
